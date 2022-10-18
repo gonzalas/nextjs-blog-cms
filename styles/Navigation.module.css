@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 15rem;
+  background-color: #0070f3;
+  padding-bottom: 1rem;
+  min-width: 100%;
+}
+
+.links {
+  color: white;
+  font-size: 2rem;
+}
+
+.linksBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #3792fb3f;
+}
+
+.header {
+  color: white;
+  font-size: 2rem;
+  text-shadow: 1px 1px black;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    height: 25rem;
+  }
+  .linksBox {
+    flex-direction: column;
+  }
+  .links {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+}
